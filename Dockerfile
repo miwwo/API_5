@@ -1,5 +1,5 @@
 # Используем официальный образ Node.js
-FROM node:10
+FROM node:12
 
 # Устанавливаем json-server глобально
 RUN npm install -g json-server
